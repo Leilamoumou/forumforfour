@@ -1,6 +1,5 @@
-# forumforfour READ THE README
-:3
-
-the dominican mamahuevos
-  klk
-🇩🇴
+ForumforFour, by four
+Fullstack - Leila
+Fullstack - Fabiola
+Color Picker - Enzo
+Islam - Islam
