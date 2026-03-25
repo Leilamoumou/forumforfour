@@ -1,5 +1,5 @@
-ForumforFour, by four
-Fullstack - Leila
-Fullstack - Fabiola
-Color Picker - Enzo
-Islam - Islam
+# ForumforFour, by four
+## Login - Leila
+## Database  - Fabiola
+## UI Design - Enzo
+## Frontend - Islam
