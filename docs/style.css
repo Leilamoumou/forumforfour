@@ -295,6 +295,16 @@
      line-height: 2;
    }
    
+   body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+   
    /* --- Responsive --- */
    
    @media (max-width: 768px) {
