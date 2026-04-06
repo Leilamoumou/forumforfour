@@ -74,7 +74,7 @@ a:hover {
 
 .forum-title {
   font-family: var(--font-body);
-  font-size: 1.05rem;
+  font-size: 2.0rem;
   font-weight: 400;
   margin-bottom: var(--gap-xs);
   line-height: 1.3;
@@ -84,7 +84,7 @@ a:hover {
 .forum-dates,
 .exhibition-hours {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 1.5rem;
   color: var(--color-muted);
   line-height: 1.6;
   text-align: center;
@@ -94,7 +94,7 @@ a:hover {
   margin-top: var(--gap-sm);
   margin-left: auto;
   margin-right: auto;
-  font-size: 0.9rem;
+  font-size: 2.0rem;
   max-width: 60ch;
   line-height: 1.75;
   text-align: center;
