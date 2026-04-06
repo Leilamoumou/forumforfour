@@ -59,7 +59,7 @@ a:hover {
 
 .site-logo {
   font-family: var(--font-mono);
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.01em;
 }
@@ -100,6 +100,13 @@ a:hover {
   text-align: center;
 }
 
+.learn-more {
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  color: var(--color-muted);
+  margin-top: var(--gap-sm);
+}
+
 .site-footer {
   position: fixed;
   bottom: 0;
@@ -109,9 +116,8 @@ a:hover {
   justify-content: center;
   padding: var(--gap-md) 4rem;
   border-top: 1px solid var(--color-rule);
-  margin: 40 4rem;
-  width: calc(100% - 8rem);
 }
+
 .footer-nav {
   display: flex;
   flex-direction: column;
@@ -120,4 +126,8 @@ a:hover {
   font-size: 0.78rem;
   color: var(--color-muted);
   line-height: 2;
+}
+
+body.about {
+  overflow: auto;
 }
