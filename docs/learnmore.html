@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      overflow: auto;
+    }
+
+    .about-wrapper {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 8rem 2rem 6rem;
+    }
+
+    .about-statement {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--color-muted);
+      max-width: 40ch;
+      line-height: 1.8;
+      margin-bottom: 5rem;
+      border-top: 1px solid var(--color-rule);
+      padding-top: 1.5rem;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      border-top: 1px solid var(--color-rule);
+    }
+
+    .about-member {
+      padding: 1.5rem 1.5rem 1.5rem 0;
+      border-right: 1px solid var(--color-rule);
+    }
+
+    .about-member:last-child {
+      border-right: none;
+      padding-right: 0;
+      padding-left: 1.5rem;
+    }
+
+    .about-member:nth-child(2),
+    .about-member:nth-child(3) {
+      padding-left: 1.5rem;
+    }
+
+    .about-member-img {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      background: #e8e8e8;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .about-member-name {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.05em;
+      color: var(--color-text);
+      margin-bottom: 0.25rem;
+    }
+
+    .about-member-role {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--color-muted);
+    }
+
+    .about-title {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--color-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="site-logo">هنا</a>
+  </header>
+
+  <div class="about-wrapper">
+    <p class="about-title">About Us</p>
+
+    <p class="about-statement">
+      A collection by four, for all 。
+    </p>
+
+    <div class="about-grid">
+      <div class="about-member">
+        <div class="about-member-img"></div>
+        <p class="about-member-name">Name One</p>
+        <p class="about-member-role">Role</p>
+      </div>
+      <div class="about-member">
+        <div class="about-member-img"></div>
+        <p class="about-member-name">Name Two</p>
+        <p class="about-member-role">Role</p>
+      </div>
+      <div class="about-member">
+        <div class="about-member-img"></div>
+        <p class="about-member-name">Name Three</p>
+        <p class="about-member-role">Role</p>
+      </div>
+    
+      <div class="about-member">
+        <div class="about-member-img"></div>
+        <p class="about-member-name">Name Four</p>
+        <p class="about-member-role">Role</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-nav">
+      <a href="#">Opening Times / 営業時間 :: Forever / 永遠</a>
+      <a href="about.html">About</a>
+    </div>
+  </footer>
+</body>
+</html>
