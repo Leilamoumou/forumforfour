@@ -1,6 +1,6 @@
 # ForumforFour, by four, for all
 ## Login - Leila
-## Database  - Fabiola
+## Virtual Supervisor  - Fabiola
 ## Bro Engineer - Enzo
 ## Frontend - Islam
 
